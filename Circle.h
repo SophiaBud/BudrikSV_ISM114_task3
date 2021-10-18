@@ -2,15 +2,16 @@
 #include "Shape.h"
 
 /// <summary>
-/// Класс для круга
+/// ДГ«Е•Е„Е„ Г¤Г«Л™ Д™Д‘ГіДѓЕ•
 /// </summary>
 class Circle : public Shape 
 {
+
 private:
 	unsigned side = 0;
 public:
 	Circle();
-	Circle(double _diameter); // диаметр круга (также его ширина и высота) = половине радиуса
+	Circle(double _diameter); // Г¤ДЌЕ•Д›ДєЕ€Д‘ Д™Д‘ГіДѓЕ• (Е€Е•Д™Д‡Дє ДєДѓГ® Е™ДЌД‘ДЌГ­Е• ДЌ ГўЕ±Е„Г®Е€Е•) = ДЏГ®Г«Г®ГўДЌГ­Дє Д‘Е•Г¤ДЌГіЕ„Е•
 	double GetArea();
 	double GetPerimeter();
 };
